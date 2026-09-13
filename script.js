@@ -1,21 +1,8 @@
-// Smooth scrolling for navigation links
+const menuButton = document.querySelector('.menu-toggle');
+const nav = document.querySelector('.nav-links');
 
-document.querySelectorAll('a[href^="#"]').forEach(link => {
-
-    link.addEventListener("click", function (event) {
-
-        const target = document.querySelector(
-            this.getAttribute("href")
-        );
-
-        if (target) {
-            event.preventDefault();
-
-            target.scrollIntoView({
-                behavior: "smooth"
-            });
-        }
-
-    });
-
-});
+if (menuButton && nav) {
+  menuButton.addEventListener('click', () => {
+    nav.classList.toggle('open');
+  });
+}
