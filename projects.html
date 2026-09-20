@@ -20,10 +20,131 @@
     <div class="project-body"><p class="project-meta">PROJECT 02 · [YEAR]</p><h2>[Project title]</h2><p>[Short project summary.]</p><div class="project-tags"><span>Mechatronics</span><span>[Control]</span><span>[Programming]</span></div><div class="project-links"><a href="#">Project details →</a><a href="assets/projects/project-02.pdf" target="_blank">PDF →</a></div></div>
   </article>
 
-  <article class="project-card">
-    <div class="project-media media-grid"><div class="media-placeholder">IMAGE 1</div><div class="media-placeholder">IMAGE 2</div><div class="media-placeholder">IMAGE 3</div><div class="media-placeholder">GRAPH / RESULT</div></div>
-    <div class="project-body"><p class="project-meta">PROJECT 03 · [YEAR]</p><h2>[Bachelor thesis / graduation project]</h2><p>[Short project summary and your contribution.]</p><div class="project-tags"><span>[Expertise]</span><span>[Tool]</span><span>[Result]</span></div><div class="project-links"><a href="#">Project details →</a><a href="assets/projects/bachelor-thesis.pdf" target="_blank">Bachelor thesis PDF →</a></div></div>
-  </article>
+```html
+<article class="project-card">
+
+  <div class="project-media">
+    <img
+      src="assets/projects/bep-picture.png"
+      alt="Torsionally reinforced leaf springs"
+    >
+  </div>  
+
+  <div class="project-body">
+
+    <p class="project-meta">BACHELOR END PROJECT · TU DELFT · MECHANICAL ENGINEERING</p>
+
+    <h2>Investigating Spline and Triangular Reinforced Flexures</h2>
+
+    <p>
+      This project investigates how reinforcement geometry can be used to tune
+      the stiffness behaviour of compliant mechanisms. The study focuses on
+      leaf-spring flexures and the trade-off between in-plane Range of Motion
+      (RoM) and out-of-plane stiffness.
+    </p>
+
+    <div class="project-tags">
+      <span>Compliant Mechanisms</span>
+      <span>Flexures</span>
+      <span>FEM</span>
+      <span>SolidWorks</span>
+      <span>MATLAB</span>
+      <span>Experimental Validation</span>
+    </div>
+
+    <div class="project-links">
+      <a
+        href="assets/projects/bachelor-end-project.pdf"
+        target="_blank"
+        class="button button-dark"
+      >
+        Read the full paper
+      </a>
+    </div>
+
+  </div>
+
+</article>
+
+
+<section class="project-template">
+
+  <div class="section-heading">
+    <span class="number">01</span>
+    <h2>Project Overview</h2>
+  </div>
+
+  <div class="template-grid">
+
+    <div>
+      <h3>Abstract</h3>
+      <p>
+        This study analyses the effect of triangular and spline reinforcements
+        on leaf springs. It focuses on maximizing the in-plane displacement
+        referred to as the Range of Motion (RoM), while also maximizing the
+        out-of-plane stiffness. This was achieved using finite element
+        simulations in SolidWorks and MATLAB. A reference model was also
+        simulated for different triangle heights for comparison. Finally,
+        3D-printed models were experimentally tested to fully understand the
+        design. It was found that the RoM can be increased by 6% if some of
+        the triangular structures are replaced with bows. This, however,
+        negatively impacts the stiffness, resulting in a decrease of 22%.
+        A trade-off between RoM and buckling may therefore be acceptable
+        depending on the application.
+      </p>
+    </div>
+
+    <div>
+      <h3>What I Achieved</h3>
+      <p>
+        Through this project, I developed a deeper understanding of compliant
+        mechanisms and how geometry can be used to control where a mechanism
+        is stiff and where it remains flexible. I investigated how triangular
+        and curved reinforcement structures influence the stiffness and
+        deformation behaviour of leaf-spring flexures.
+      </p>
+
+      <p>
+        I used finite element simulations to evaluate different geometries and
+        reinforcement heights, developed a simplified MATLAB optimisation
+        model, and compared the numerical results with physical 3D-printed
+        prototypes. This allowed me to study the trade-off between increasing
+        the desired in-plane Range of Motion and limiting undesired
+        out-of-plane deformation.
+      </p>
+    </div>
+
+    <div>
+      <h3>Engineering Insight</h3>
+      <p>
+        A key insight from the project was that stiffness does not simply need
+        to be increased or decreased globally. The geometry of a compliant
+        mechanism can be designed to provide high stiffness in undesired
+        directions while remaining flexible in the desired direction.
+      </p>
+
+      <p>
+        The results showed that triangular reinforcements provide higher
+        resistance against buckling, while bow-shaped reinforcements introduce
+        additional flexibility. Combining the two therefore provides a way to
+        tune the mechanism to application-specific requirements.
+      </p>
+    </div>
+
+    <div>
+      <h3>Tools & Methods</h3>
+      <p>
+        SolidWorks FEM, MATLAB optimisation, compliant mechanism design,
+        flexure design, parameter variation, 3D printing and experimental
+        testing.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+```
+
 
   <article class="project-card">
     <div class="project-media"><div class="media-placeholder">OPTIONAL VIDEO / IMAGE / CAD</div></div>
